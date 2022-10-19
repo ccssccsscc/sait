@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="C:\Users\матвей\OneDrive\Рабочий стол\домашка\Разработка сайтов\project4\style.css">
+</head>
+<body>
+    <form action="" method="get">
+        <fieldset>
+            <legend>Электронная повестка</legend>
+            <p>
+            <label for="word">Введите слово</label>
+            <input type="text" name="word" id="word" value="Вам повестка" pattern="[А-Яа-яЁё]" placeholder="ведите слава России" required>
+             </p>
+            <p>
+            <label for="email">Введите мыло</label>
+            <input type="email" name="email" id="email" pattern="^[a-zA-Z]+$" placeholder="@"  required>
+             </p>
+            <p>
+            <label for="tel">Введите телефон</label>
+            <input type="tel" name="tel" id="tel" pattern="[0-9]{5,10}" placeholder="10 цифр"  required >
+            </p>
+             <p>
+            <label for="password">Введите пароль</label>
+            <input type="password" name="password" id="password" value="От армии не убежишь" placeholder="кодовое слово"  required>
+            </p>
+             <p>
+            <label for="file">Внесите файл</label>
+            <input type="file" name="file" id="file" placeholder="приписное"  required>
+            </p>
+        <p><label><input type = "checkbox" name="save" value="on" checked placeholder="pdf" >Сохранить</label></p>
+            <p>
+            <label for="radio">выбор варианта</label>
+            <input type="radio" name="radio" id="radio" placeholder="один вариант"  checked required>
+            </p>
+            <p>
+            <label for="submit">подтверждение</label>
+            <input type="submit" name="submit" id="submit" value="Гудбай" placeholder="нажмите"  required>
+            </p>
+            <p>
+            <label for="datetime-local">Введите дату рождения</label>
+            <input type="datetime-local" name="datetime-local" id="datetime-local" max="8" min="8" placeholder="введите призывной возраст"  required>
+        </p>
+        <p><button tupe="submit">Отправить военкомату</button></p>
+        <br><label for="about">Раскажите какими наваками обладаете</label></br>
+        <textarea id="about" name="about" row="10" cols="35" maxlength="10" minlength="10" placeholder="пишите чесно" required>Призывник</textarea>
+        </fieldset>
+        
+    </form>
+    <form>
+        <label for="select">готовы ли вы служить родине</label>
+        <select name="select" id="select" multiple="2" size="5"required>
+            <option value="">-- Ваш ответ ---</option>
+            <option value="Yes">Да</option>
+            <option value="onlyYes">Конечно</option>
+            <option value="aga">Однозначное Да</option>
+        </select>
+    </form>
+    <video controls width="150" height="100" poster="C:\Users\матвей\OneDrive\Рабочий стол\домашка\Курсовая сайтов\Snimok-ekrana-2022-09-17-150050-transformed.jpeg" preload="auto">
+        <iframe src="" title="description" width="300" height="300"></iframe>
+        <source src="C:\Users\матвей\Downloads\_import_61c038fe02da37.31897389.mp4" type="video/mp4">
+    </video>
+</body>

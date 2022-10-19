@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Bungee+Spice&family=Roboto:ital,wght@1,100&display=swap');
+h1{
+    font-family: 'Bungee Spice', cursive;
+}
+aside{
+    	box-sizing: content-box;
+        border-style:solid;
+}
+
+section{
+    color:blue;
+    background-color: red;
+}
+body{
+    background-color: black;
+    font-family:'Bungee Spice';
+    color: azure;
+
+}
+#exampl3{
+    padding: 10px 20px 30px 40px;
+    background-color: aqua;
+}
+.example1{
+    padding: 10px 20px 30px 40px;
+    background-color: wheat;
+}
+div > p{
+    padding: 10px 20px 30px 40px;
+    background-color: red;
+}
+p:visited{
+    background-color:blueviolet;
+}
+p:active{
+    background-color: darkorange;
+}
+h1:hover{
+    color: red;
+}
+
+.main{
+    background-color:#000099; width:600px; margin:0 auto; overflow:hidden;
+}

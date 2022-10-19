@@ -1,0 +1,31 @@
+.gallary{
+    padding: .5vw;
+    font-size: 0;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    flex-flow: row wrap;
+    display: flex;
+}
+.gallary div{
+    flex: auto;
+    width: 237px;
+    margin: .5vw;
+}
+.gallary div img{
+    width: 100%;
+    height: auto;
+}
+@media  screen  and (max-width: 550px){
+    .gallary div{margin: 0;}
+    .gallary{
+        padding: 0;
+    }
+.gallary:hover img{
+    opacity: 0.3;
+    transition: .8s opacity;
+}
+gallary:hover img:hover{
+    opacity: 1;
+    transition: .8s opacity;
+}
+}

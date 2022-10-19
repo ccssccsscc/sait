@@ -1,0 +1,21 @@
+::placeholder{
+    background-color: brown;
+    color: blue;
+}
+input:focus{
+    color: brown;
+    background-color: darkgreen;
+    font-size: 5px ;
+    padding: 5px 5px;
+    margin: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+textarea:focus{
+    color: brown;
+    background-color: darkgreen;
+    font-size: 5px ;
+    padding: 5px 5px;
+    margin: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
