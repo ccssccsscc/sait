@@ -1,0 +1,210 @@
+body{
+    max-width: 0;
+    padding: 0;
+    background-color: brown;
+}
+.box{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%)
+}
+.notif{
+    width: 60px;
+    height: 60px;
+    background: blue;
+    border-radius: 30px;
+    box-sizing:border-box;
+    text-align: center;
+    box-shadow: 0 2px 5px white;
+
+}
+.notif:hover
+{
+    width:300px ;
+    height: 60px;
+    text-align: left ;
+    padding:0 15px ;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.notif .fa-regular{
+    color: coral;
+    line-height: 60px;
+    font-size: 30px;
+}
+.notif .fa-regular:hover
+{
+    color: white;
+}
+.notif .num{
+    position: absolute;
+    top:0;
+    right: -5px;
+    width: 25px;
+    height: 25px;
+    border-radius:50% ;
+    background:purple ;
+    color: green;
+    line-height: 25px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.notif:hover .num
+{
+    position: relative;
+    background: transparent;
+    color:white;
+    font-size: 24px;
+    top:-4px;
+}
+.notif:hover .num::after
+{
+    content:'bell';
+
+}
+ul{
+    position: absolute;
+    left: 0;
+    top: 60;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background:white ;
+    box-shadow: 0 5px 15px green;
+    padding: 20px;
+    box-sizing: border-box;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: none;
+    
+}
+.notif:hover ul{
+    display: block;
+}
+ul li
+{
+    list-style: none;
+    border-bottom: 1px solid white;
+    padding: 8px 0;
+    display: flex;
+
+}
+ul li:last-child
+{
+    border-bottom: none;
+}
+.first>button{
+    background: black;
+    color: white;
+    border: 1px solid green;
+}
+.first>button:hover {
+    background: #D0D941;
+    color: #000;
+    transition: 3s;
+}
+.second>button{
+    border: 1px solid green;
+}
+.second>button:hover{
+    border: 2px solid red;
+    transition:  3s;
+    transform: scale(1,2);
+}
+.third>button{
+    color:blue
+}
+.third>button:hover{
+    transform: rotateZ(180deg);
+    transition:  5s;
+}
+.fouth>button{
+    color:blue
+}
+.fouth>button:hover{
+    transform:translateX(120px);
+    transition:  10s;
+}
+.cool_img {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 50px;
+}
+ 
+.cool_img .info {
+    position: absolute;
+    bottom: 0;
+}
+ 
+.cool_img .info span {
+    display: block;
+    position: relative;
+    top: 130px;
+    color: #FFFFFF;
+    background: #000000;
+    transition-delay: 0;
+    transition-duration: 0.3s;
+}
+ 
+.cool_img .info .info_title {
+    font-size: 50px;
+    font-weight: bold;
+    padding: 50px;
+    border-radius: 50px 50px 0 0;
+    opacity: 0.8;
+}
+ 
+.cool_img .info .info_text {
+    font-size: 50px;
+    padding: 50px;
+    opacity: 0.6;
+}
+ 
+.cool_img:hover .info span, .cool_img:focus .info span {
+    top: 0;
+}
+ 
+.cool_img:hover .info .info_title {
+    transition-delay: 0.15s;
+}
+ 
+.cool_img:hover .info .info_text {
+    transition-delay: 0.25s;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%) ;
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+}
+main .vid,
+main .text{
+    width:100% ;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    transition: 2s;
+}
+main .vid video{
+    width: 100%;
+}
+main .text{
+   background: red; 
+   top:0;
+   left:100%;
+   padding: 30px 30px;
+}
+main:hover .text{
+    top:0;
+    left:0;
+}
