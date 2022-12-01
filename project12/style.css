@@ -1,0 +1,23 @@
+.notification {
+    position: fixed;
+    z-index: 1000;
+    padding: 5px;
+    font-size: 40px;
+    background: white;
+    text-align: center;
+  }
+  
+  .welcome {
+    background: red;
+    color: white;
+  }
+  #field {
+    width: 200px;
+    border: 10px groove black;
+    background-color: #00FF00;
+    position: relative;
+  }
+
+  #ball {
+    position: absolute;
+  }

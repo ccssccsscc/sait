@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+    color: white;
+}
+input:focus {
+    background-color: aqua;
+}
+
+@media (min-width: 713px) {
+    .third .Name{
+        grid-column: 1 / span 12;
+        grid-row: 2;
+    }
+    .third .email{
+        grid-column: 1 / span 12;
+        grid-row: 3;
+    }
+    .third .Massege{
+        grid-column: 1 / span 8;
+        grid-row: 4;
+    }
+    .third .submit{
+        grid-column: 1 / span 12;
+        grid-row: 5;
+    }
+    .third .phone {
+        grid-column: 3 / span 8;
+        grid-row: 2;
+      }
+    .third .Surname {
+        grid-column: 3 / span 10;
+        grid-row: 3;      }
+}
+@media (min-width: 320px){
+    .third {
+        display: grid;
+        height: 100vh;
+        grid-template-rows: auto auto 1fr auto auto auto ;
+        gap: 16px;
+    }
+}

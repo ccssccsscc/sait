@@ -1,0 +1,85 @@
+.second {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: 100px;
+    grid-template-areas:
+      "a a a a d d e e"
+      "a a a a d d e e"
+      "b b c c d d f f"
+      "b b c c d d f f" 
+      "b b g g g g g g"
+      "b b g g g g g g";
+  }
+  .b1 {
+    grid-area: a;
+    background-color: black;
+    text-align: center;
+  }
+  .b2 {
+    grid-area: b;
+    background-color: red;
+    text-align: center;
+  }
+  .b3 {
+    grid-area: c;
+    background-color: blue;
+    text-align: center;
+
+  }
+  .b4 {
+    grid-area: d;
+    background-color: yellow;
+    text-align: center;
+  }
+  .b5 {
+    grid-area: e;
+    background-color: yellowgreen;
+    text-align: center;
+  }
+  .b6 {
+    grid-area: f;
+    background-color: purple;
+    text-align: center;
+  }
+  .b7 {
+    grid-area: g;
+    background-color: green;
+    text-align: center;
+
+  }
+  .second>.b1:hover{
+    background-color: coral;
+    transition: 1s;
+    transform: scale(1.2);
+  }
+  .second>.b2:hover{
+    background-color: coral;
+    transition: 1s;
+    transform: scale(1.2);
+  }
+  .second>.b3:hover{
+    background-color: coral;
+    transition: 1s;
+    transform: scale(1.2);
+  }
+  .second>.b4:hover{
+    background-color: coral;
+    transition: 1s;
+    transform: scale(1.2);
+  }
+  .second>.b5:hover{
+    background-color: coral;
+    transition: 1s;
+    transform: scale(1.2);
+  }
+  .second>.b6:hover{
+    background-color: coral;
+    transition: 1s;
+    transform: scale(1.2);
+  }
+  .second>.b7:hover{
+    background-color: coral;
+    transition: 1s;
+    transform: scale(1.2);
+  }

@@ -1,0 +1,18 @@
+button{
+    background-color: black;
+    border:0.5px;
+    border-radius: 75%;
+}
+
+button:hover {
+	background: linear-gradient(red 0%, orange 25%, yellow 25%, green 50%, rgb(8, 140, 193) 50%, blue 75%, purple 75%);
+	background-repeat: repeat-y;
+	background-position: 0px 0px;
+	animation: gradient 100s infinite linear;
+}
+ 
+@keyframes gradient {
+	to {
+		background-position: 0 1000px;
+	}
+}
